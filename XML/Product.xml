@@ -1,0 +1,100 @@
+<Products>
+<Product ID="20">
+	<NAME>Samgsung</NAME>
+    <UNITPRICE>35000</UNITPRICE>
+	<STOCK>50</STOCK>
+	<STATUS>1</STATUS>
+</Product>
+
+
+<Product ID="13">
+	<NAME>HTC</NAME>
+    <UNITPRICE>65300</UNITPRICE>
+	<STOCK>35</STOCK>
+	<STATUS>0</STATUS>
+</Product>
+
+
+<Product ID="23">
+	<NAME>Nokia</NAME>
+    <UNIT_PRICE>25100</UNIT_PRICE>
+	<STOCK>100</STOCK>
+	<STATUS>1</STATUS>
+</Product>
+
+
+</Products>
+
+
+<Persons>
+<Person Id="23">
+<NAME>John Certer</NAME>
+<ADMISSON_DATE>25/12/2015</ADMISSON_DATE>
+</Person>
+<Person Id="29">
+<NAME>John Certer</NAME>
+<ADMISSON_DATE>25/12/2015</ADMISSON_DATE>
+</Person>
+<Person Id="35">
+<NAME>John Certer</NAME>
+<ADMISSON_DATE>25/12/2015</ADMISSON_DATE>
+</Person>
+</Persons>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

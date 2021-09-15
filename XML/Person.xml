@@ -1,0 +1,30 @@
+<Persons>
+
+<Person Id="23">
+<NAME>John Certer</NAME>
+<ADMISSON_DATE>
+    <DATE>25</DATE>
+    <MONTH>12</MONTH>
+    <YEAR>2015</YEAR>
+</ADMISSON_DATE>
+</Person>
+
+<Person Id="29">
+<NAME>Bob Marshal</NAME>
+<ADMISSON_DATE>
+    <DATE>13</DATE>
+    <MONTH>01</MONTH>
+    <YEAR>1999</YEAR>
+</ADMISSON_DATE>
+</Person>
+
+<Person Id="35">
+<NAME>Clerk Kent</NAME>
+<ADMISSON_DATE>
+    <DATE>17</DATE>
+    <MONTH>06</MONTH>
+    <YEAR>2005</YEAR>
+</ADMISSON_DATE>
+</Person>
+
+</Persons>
