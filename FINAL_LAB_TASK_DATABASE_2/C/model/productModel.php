@@ -1,9 +1,10 @@
 <?php
     require_once('db.php');
 	
-	function deleteUser($id){
+	function editProduct($product){
 		$con = getConnection();
-		$sql = "delete from product where id={$id}";
+		$sql= "update users set username='{$product['name']}', password='{$product['buyingPrice']}', email='{$product['sellingPrice']}' where id={$product['id']}";
+		
 		if(mysqli_query($con, $sql)){
 			return true;
 		}else{
