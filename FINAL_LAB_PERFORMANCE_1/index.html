@@ -1,9 +1,48 @@
 <!DOCTYPE html>  
 <html lang = "en">  
+    
 <head>  
-    <title> JavaScript Calculator </title>    
+    <title> JavaScript Calculator </title>  
 </head>  
+    
 <body>  
-     
+
+    <form> 
+
+        <table border=1 height="400px" width="300px" align="center">
+            <tr> <td colspan="8" align="right">0</td></tr>
+            
+            <tr>
+                <td align="center"><input type="submit" name="ce" value="CE" onclick="clear()"></td>
+                <td align="center"><input type="submit" name="c" value="C" onclick=""></td>
+                <td align="center"><input type="submit" name="x" value="x" onclick=""></td>
+                <td align="center"><input type="submit" name="/" value="/" onclick="division"></td>
+
+            </tr>
+            
+            <tr>
+                <td align="center"><input type="submit" name="7" value="7"></td>
+                <td align="center"><input type="submit" name="8" value="8"></td>
+                <td align="center"><input type="submit" name="9" value="9"></td>
+                <td align="center"><input type="submit" name="X" value="*" onclick="multiplication()"></td>
+            </tr>
+            
+            <tr>
+                <td align="center"><input type="submit" name="4" value="4"></td>
+                <td align="center"><input type="submit" name="5" value="5"></td>
+                <td align="center"><input type="submit" name="6" value="6"></td>
+                <td align="center"><input type="submit" name="7" value="-" onclick="subtraction()"></td>
+            </tr>
+            
+            <tr>
+                <td align="center"><input type="submit" name="u" value="+/-" onclick=""></td>
+                <td align="center"><input type="submit" name="0" value="0"></td>
+                <td align="center"><input type="submit" name="." value="."</td>
+                <td align="center"><input type="submit" name="=" value="=" onclick="result()"></td>
+            </tr>
+
+        <table>
+          
+    </form>  
 </body>  
 </html>  
