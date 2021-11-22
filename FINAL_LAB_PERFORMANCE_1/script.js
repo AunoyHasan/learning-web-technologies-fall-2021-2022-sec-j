@@ -29,3 +29,7 @@ function division(){
 	return value1/value2;
 	
 }
+
+function result(){
+	document.getElementBytagName('container')[0]=0;
+}
