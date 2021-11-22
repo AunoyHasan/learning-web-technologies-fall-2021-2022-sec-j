@@ -2,47 +2,57 @@
 <html lang = "en">  
     
 <head>  
-    <title> JavaScript Calculator </title>  
+    <title> JavaScript Calculator </title> 
+    <link rel="stylesheet" type="text/css" href="style.css"> 
 </head>  
     
 <body>  
 
     <form> 
 
-        <table border=1 height="400px" width="300px" align="center">
-            <tr> <td colspan="8" align="right">0</td></tr>
+        <table border=1 height="450px" width="300px" align="center">
+            <tr class="contailer"> <td colspan="8" align="right">0</td></tr>
             
             <tr>
-                <td align="center"><input type="submit" name="ce" value="CE" onclick="clear()"></td>
-                <td align="center"><input type="submit" name="c" value="C" onclick=""></td>
-                <td align="center"><input type="submit" name="x" value="x" onclick=""></td>
-                <td align="center"><input type="submit" name="/" value="/" onclick="division"></td>
+                <td align="center" class="contailer"><input type="button" name="ce" value="CE" onclick="clear()"></td>
+                <td align="center" class="contailer"><input type="button" id="cl" name="c" value="C" onclick=""></td>
+                <td align="center" class="contailer"><input type="button" id="cl"name="x" value="x" onclick=""></td>
+                <td align="center" class="contailer"><input type="button" name="division" value="/" onclick="division"></td>
 
             </tr>
             
             <tr>
-                <td align="center"><input type="submit" name="7" value="7"></td>
-                <td align="center"><input type="submit" name="8" value="8"></td>
-                <td align="center"><input type="submit" name="9" value="9"></td>
-                <td align="center"><input type="submit" name="X" value="*" onclick="multiplication()"></td>
+                <td align="center"><input type="button" id="d1" name="7" value="7"></td>
+                <td align="center"><input type="button" id="d1" name="8" value="8"></td>
+                <td align="center"><input type="button" id="d1" name="9" value="9"></td>
+                <td align="center" class="contailer"><input type="button" name="multiplication" value="*" onclick="multiplication()"></td>
             </tr>
             
             <tr>
-                <td align="center"><input type="submit" name="4" value="4"></td>
-                <td align="center"><input type="submit" name="5" value="5"></td>
-                <td align="center"><input type="submit" name="6" value="6"></td>
-                <td align="center"><input type="submit" name="7" value="-" onclick="subtraction()"></td>
+                <td align="center"><input type="button" id="d1" name="4" value="4"></td>
+                <td align="center"><input type="button" id="d1" name="5" value="5"></td>
+                <td align="center"><input type="button" id="d1" name="6" value="6"></td>
+                <td align="center" class="contailer"><input type="button" name="subtraction" value="-" onclick="subtraction()"></td>
+            </tr>
+
+             <tr>
+                <td align="center"><input type="button" id="d1" name="1" value="1"></td>
+                <td align="center"><input type="button" id="d1" name="2" value="2"></td>
+                <td align="center"><input type="button" id="d1" name="3" value="3"></td>
+                <td align="center" class="contailer"><input type="button" name="addition" value="+" onclick="addition()"></td>
             </tr>
             
             <tr>
-                <td align="center"><input type="submit" name="u" value="+/-" onclick=""></td>
-                <td align="center"><input type="submit" name="0" value="0"></td>
-                <td align="center"><input type="submit" name="." value="."</td>
-                <td align="center"><input type="submit" name="=" value="=" onclick="result()"></td>
+                <td align="center"><input type="button" name="u" value="+/-" onclick=""></td>
+                <td align="center"><input type="button" name="0" value="0"></td>
+                <td align="center"><input type="button" name="." value="."</td>
+                <td align="center" class="dcontailer"><input type="button" name="=" value="=" onclick=""></td>
             </tr>
 
         <table>
           
-    </form>  
+    </form>
+
+    <script type="text/javascript" src="script.js"></script>  
 </body>  
 </html>  
