@@ -3,21 +3,31 @@
 
     $equal = $_REQUEST['equal'];
 
-    
+    $number = $_REQUEST['d1'];
+   
+
     function addition(){
-         return ;
+        $num1 = $number;
+        $num2 = $number;
+        return $num1+$num2;
     }
 
     function deletion(){
-         return ;
+     $num1 = $number;
+        $num2 = $number;
+        return $num1-$num2;
     }
 
     function multiplication(){
-         return ;
+     $num1 = $number;
+        $num2 = $number;
+        return $num1*$num2;
     }
 
     function devition(){
-         return ;
+     $num1 = $number;
+        $num2 = $number;
+         return $num1/$num2;
     }
 
 ?>
